@@ -1,7 +1,11 @@
+"use client"
+
 import { Heade } from "@/components/Heade";
+import { InfoTech } from "@/components/InfoTech";
 import { Nav } from "@/components/Nav";
 import { RedesAndLogo } from "@/components/Redes&Logo";
 import { listHead } from "@/data/listHead";
+import { listInfoTech } from "@/data/listInfoTech";
 import { listNav } from "@/data/listNav";
 import { listRedesAndLogo } from "@/data/listRedes&Logo";
 
@@ -22,18 +26,8 @@ const Page = () => {
           <Nav menu={listNav} />
         </div>
 
-        <div className="max-w-6xl m-auto hidden lg:flex justify-between items-center">
-
-          <div className="">
-            <img src="assets/front.png" alt="" />
-          </div>
-
-          <div className="pr-4 xl:p-0">
-            <h1 className="text-6xl mb-10  text-gray-600">Programador Web</h1>
-            <h2 className="text-5xl text-[#410085]">Front - End</h2>
-            <div className="mt-10">redes</div>
-          </div>
-
+        <div>
+            <InfoTech infoTech={listInfoTech} />
         </div>
       </div>
     </div>
