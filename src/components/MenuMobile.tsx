@@ -11,8 +11,8 @@ export const MenuMobile = ({ menu, handleClick }: Props) => {
         <div>
             {menu.map(item => (
                 <div>
-                    <button onClick={handleClick} className="absolute right-17 top-10 cursor-pointer">
-                        <img src={item.imgBurgerMenu} alt="icon menu burger" className="w-10" />
+                    <button onClick={handleClick} className="absolute right-17 top-[7px]  cursor-pointer lg:hidden">
+                        <img src={item.imgBurgerMenu} alt="icon menu burger" className="w-10 sm:ml-12" />
                     </button>
 
                     <div id="menu" onClick={handleClick} className="w-80 h-screen fixed top-0 right-0 bg-linear-to-r from-black to-[#410085] flex flex-col m-auto transition duration-300 ease-in-out translate-x-full">
