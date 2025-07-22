@@ -45,17 +45,20 @@ const Page = () => {
           <InfoTech infoTech={listInfoTech} />
         </div>
 
-        <div className="flex justify-around pt-40 pb-40 bg-gray-950">
-          <p>desc</p>
-
-          <div className="w-[320px] h-[320px] border rounded-md flex justify-center items-center">
-            <div className="flex flex-col gap-10"> 
-            img
-             <img src="" alt="" />
-             <p className="text-2xl">Olá, eu sou Marlon</p>
+        <div className="flex justify-around items-center py-50">
+          <div>
+            <h2 className="text-5xl">Sobre mim</h2>
+            <div>
+              <p>desc</p>
             </div>
           </div>
+
+          <div>
+            img
+            <img src="" alt="" />
+          </div>
         </div>
+
 
       </div> {/* fim header */}
     </div>
