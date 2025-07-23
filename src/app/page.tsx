@@ -1,10 +1,12 @@
 "use client"
 
+import { AboutMe } from "@/components/AboutMe";
 import { Heade } from "@/components/Heade";
 import { InfoTech } from "@/components/InfoTech";
 import { MenuMobile } from "@/components/MenuMobile";
 import { Nav } from "@/components/Nav";
 import { RedesAndLogo } from "@/components/Redes&Logo";
+import { listAbout } from "@/data/listAbout";
 import { listHead } from "@/data/listHead";
 import { listInfoTech } from "@/data/listInfoTech";
 import { listMobileMenu } from "@/data/listMobileMenu";
@@ -45,18 +47,8 @@ const Page = () => {
           <InfoTech infoTech={listInfoTech} />
         </div>
 
-        <div className="flex justify-around items-center py-50">
-          <div>
-            <h2 className="text-5xl">Sobre mim</h2>
-            <div>
-              <p>desc</p>
-            </div>
-          </div>
-
-          <div>
-            img
-            <img src="" alt="" />
-          </div>
+        <div>
+          <AboutMe aboutMe={listAbout} />
         </div>
 
 
