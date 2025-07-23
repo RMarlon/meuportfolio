@@ -51,6 +51,16 @@ const Page = () => {
           <AboutMe aboutMe={listAbout} />
         </div>
 
+        <div className="py-20">
+          <div>
+            <h2>Habilidades</h2>
+          </div>
+
+          <div>
+            img
+          </div>
+        </div>
+
 
       </div> {/* fim header */}
     </div>
