@@ -6,12 +6,14 @@ import { InfoTech } from "@/components/InfoTech";
 import { MenuMobile } from "@/components/MenuMobile";
 import { Nav } from "@/components/Nav";
 import { RedesAndLogo } from "@/components/Redes&Logo";
+import { Skill } from "@/components/Skill";
 import { listAbout } from "@/data/listAbout";
 import { listHead } from "@/data/listHead";
 import { listInfoTech } from "@/data/listInfoTech";
 import { listMobileMenu } from "@/data/listMobileMenu";
 import { listNav } from "@/data/listNav";
 import { listRedesAndLogo } from "@/data/listRedes&Logo";
+import { listSkills } from "@/data/listSkills";
 import { useState } from "react";
 
 
@@ -36,7 +38,7 @@ const Page = () => {
       </div>
 
 
-      <div className="bg-black container mx-auto shadow shadow-[#410085]"> {/* início header */}
+      <div className="bg-black container mx-auto shadow shadow-[#410085]"> {/* início container */}
         <Heade head={listHead} />
 
         <div className="px-2 flex justify-center items-center py-30">
@@ -51,18 +53,12 @@ const Page = () => {
           <AboutMe aboutMe={listAbout} />
         </div>
 
-        <div className="py-20">
-          <div>
-            <h2>Habilidades</h2>
-          </div>
-
-          <div>
-            img
-          </div>
+        <div>
+          <Skill abilite={listSkills} />
         </div>
 
 
-      </div> {/* fim header */}
+      </div> {/* fim container */}
     </div>
   );
 }
