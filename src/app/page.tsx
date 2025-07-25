@@ -57,6 +57,23 @@ const Page = () => {
           <Skill abilite={listSkills} />
         </div>
 
+        <div className=""> {/* início portfólio */}
+          <div className="">
+            <h2>Meu portfólio</h2>
+            <p>....</p>
+          </div>
+
+          <article className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+
+            <a href="http://" target="_blank">
+              <div className="min-w-50 h-[400px] border rounded-md">
+                <div className="">Projeto 01</div>
+              </div>
+            </a>
+
+          </article>
+
+        </div> {/* Fim portfólio */}
 
       </div> {/* fim container */}
     </div>
