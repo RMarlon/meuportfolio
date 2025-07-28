@@ -12,7 +12,7 @@ export const Skill = ({ abilite }: Props) => {
                     <div className="py-20 flex flex-col items-center px-10"> {/* início habilidades */}
 
                         <div>
-                            <h2 className="text-6xl">{item.skills[0]}<span className="text-[#410085]">{item.skills[1]}</span></h2>
+                            <h2 className="text-6xl">{item.skills[0]} <span className="text-[#410085]">{item.skills[1]}</span></h2>
                         </div>
 
                         <div className="py-10 grid grid-cols-1  lg:grid-cols-3 gap-5">
