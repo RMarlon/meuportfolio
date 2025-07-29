@@ -67,7 +67,9 @@ const Page = () => {
           <MyPortfolio works={listProtfolio} btnClick={showMore}/>
         </div>
 
-
+        <div>
+          contato
+        </div>
 
       </div> {/* fim container */}
     </div>
