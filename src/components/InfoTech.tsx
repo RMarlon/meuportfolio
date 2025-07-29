@@ -33,7 +33,7 @@ export const InfoTech = ({ infoTech }: Props) => {
                         </div>
 
                         <button 
-                        className="mt-10 mb-10 border border-gray-600 w-full py-2 rounded-md tracking-wide text-2xl text-gray-600 duration-200 ease-in-out hover:text-[#410085]"> 
+                        className="mt-10 mb-10 cursor-pointer border border-gray-600 w-full py-2 rounded-md tracking-wide text-2xl text-gray-600 duration-[1s] ease-in-out hover:text-[#410085] hover:shadow hover:shadow-purple-600"> 
                         <a href="#" target="_blank">Entre em contato</a>
                         </button>
 
