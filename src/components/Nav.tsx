@@ -1,4 +1,5 @@
 import { NavMenu } from "@/types/NavMenu";
+import Link from "next/link";
 
 type Props = {
     menu:NavMenu[];

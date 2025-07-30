@@ -22,32 +22,32 @@ export const MyPortfolio = ({ works, btnClick }: Props) => {
 
                             <a href={item.linkWomanFashion} target="_blank">
                                 <div className="min-w-50 h-[400px] shadow shadow-[#410085] rounded-md  bg-[url(/assets/womanfashion.png)] bg-cover bg-position-[bottom-0rem] hover:bg-position-[left_bottom_10rem] duration-[10s]">
-                                    <div className="w-full h-full bg-[#6c443362] rounded-md flex items-center justify-center">Waman Fashion</div>
+                                    <div className="w-full h-full hover:bg-[#40008556] duration-400 ease-in-out rounded-md flex items-center justify-center">Waman Fashion</div>
                                 </div>
                             </a>
 
                             <a href={item.linkMedicenter} target="_blank" className="">
                                 <div className="min-w-50 h-[400px] shadow shadow-[#410085] rounded-md bg-[url(/assets/medicenter.png)] bg-cover bg-position-[bottom-0rem] hover:bg-position-[left_bottom_10rem] duration-[10s]">
-                                    <div className="w-full h-full bg-[#0077c775] rounded-md flex items-center justify-center">Medicenter</div>
+                                    <div className="w-full h-full hover:bg-[#40008556] duration-400 ease-in-out rounded-md flex items-center justify-center">Medicenter</div>
                                 </div>
                             </a>
 
                             <a href={item.linkStarbucks} target="_blank">
                                 <div className="min-w-50 h-[400px]  shadow shadow-[#410085] rounded-md flex items-center justify-center bg-[url(/assets/starbucks.png)] bg-cover bg-position-[bottom-0rem] hover:bg-position-[left_bottom_10rem] duration-[10s]">
-                                    <div className="w-full h-full bg-[#11705059] rounded-md flex items-center justify-center">Starbucks</div>
+                                    <div className="w-full h-full hover:bg-[#40008556] duration-400 ease-in-out rounded-md flex items-center justify-center">Starbucks</div>
                                 </div>
                             </a>
 
                             <a href={item.linkUmaMercearia} target="_blank">
                                 <div className="min-w-50 h-[400px] shadow shadow-[#410085] rounded-md flex items-center justify-center bg-[url(/assets/umamercearia.png)] bg-cover bg-position-[bottom-0rem] hover:bg-position-[left_bottom_10rem] duration-[10s]">
-                                    <div className="w-full h-full bg-[#fb923c38] rounded-md flex items-center justify-center">Uma Mercearia</div>
+                                    <div className="w-full h-full hover:bg-[#40008556] duration-400 ease-in-out rounded-md flex items-center justify-center">Uma Mercearia</div>
                                 </div>
                             </a>
 
                             <div id="hidden" onClick={btnClick} className="hidden">
                                 <a href={item.linkWomanFashion} target="_blank">
                                     <div className="min-w-50 h-[400px] shadow shadow-[#410085] rounded-md  bg-[url(/assets/awax.png)] bg-cover bg-position-[bottom-0rem] hover:bg-position-[left_bottom_10rem] duration-[10s]">
-                                        <div className="w-full h-full bg-[#0000003b] rounded-md flex items-center justify-center">Awax</div>
+                                        <div className="w-full h-full hover:bg-[#40008556] duration-4'00 ease-in-out rounded-md flex items-center justify-center">Awax</div>
                                     </div>
                                 </a>
                             </div>

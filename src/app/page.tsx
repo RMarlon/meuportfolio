@@ -1,6 +1,7 @@
 "use client"
 
 import { AboutMe } from "@/components/AboutMe";
+import { ContactMe } from "@/components/ContactMe";
 import { Heade } from "@/components/Heade";
 import { InfoTech } from "@/components/InfoTech";
 import { MenuMobile } from "@/components/MenuMobile";
@@ -9,6 +10,7 @@ import { Nav } from "@/components/Nav";
 import { RedesAndLogo } from "@/components/Redes&Logo";
 import { Skill } from "@/components/Skill";
 import { listAbout } from "@/data/listAbout";
+import { listContact } from "@/data/listContact";
 import { listHead } from "@/data/listHead";
 import { listInfoTech } from "@/data/listInfoTech";
 import { listMobileMenu } from "@/data/listMobileMenu";
@@ -27,7 +29,7 @@ const Page = () => {
 
   }
 
-  const showMore = () =>{
+  const showMore = () => {
     const hiddenMenu = document.querySelector('#hidden');
     hiddenMenu?.classList.toggle('hidden');
   }
@@ -47,29 +49,29 @@ const Page = () => {
       <div className="bg-black container mx-auto shadow shadow-[#410085]"> {/* início container */}
         <Heade head={listHead} />
 
-        <div className="px-2 flex justify-center items-center py-30">
+        <section className="px-2 flex justify-center items-center py-30">
           <Nav menu={listNav} />
-        </div>
+        </section>
 
-        <div>
+        <section>
           <InfoTech infoTech={listInfoTech} />
-        </div>
+        </section>
 
-        <div>
+        <section>
           <AboutMe aboutMe={listAbout} />
-        </div>
+        </section>
 
-        <div>
+        <section>
           <Skill abilite={listSkills} />
-        </div>
+        </section>
 
-        <div>
-          <MyPortfolio works={listProtfolio} btnClick={showMore}/>
-        </div>
+        <section>
+          <MyPortfolio works={listProtfolio} btnClick={showMore} />
+        </section>
 
-        <div>
-          contato
-        </div>
+        <section>
+          <ContactMe contact={listContact} />
+        </section>
 
       </div> {/* fim container */}
     </div>
