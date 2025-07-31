@@ -2,6 +2,7 @@
 
 import { AboutMe } from "@/components/AboutMe";
 import { ContactMe } from "@/components/ContactMe";
+import { Foot } from "@/components/Foot";
 import { Heade } from "@/components/Heade";
 import { InfoTech } from "@/components/InfoTech";
 import { MenuMobile } from "@/components/MenuMobile";
@@ -11,6 +12,7 @@ import { RedesAndLogo } from "@/components/Redes&Logo";
 import { Skill } from "@/components/Skill";
 import { listAbout } from "@/data/listAbout";
 import { listContact } from "@/data/listContact";
+import { listFooter } from "@/data/listFooter";
 import { listHead } from "@/data/listHead";
 import { listInfoTech } from "@/data/listInfoTech";
 import { listMobileMenu } from "@/data/listMobileMenu";
@@ -71,6 +73,10 @@ const Page = () => {
 
         <section>
           <ContactMe contact={listContact} />
+        </section>
+
+        <section>
+          <Foot foot={listFooter} />
         </section>
 
       </div> {/* fim container */}
