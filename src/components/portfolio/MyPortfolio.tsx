@@ -7,13 +7,13 @@ type Props = {
 
 export const MyPortfolio = ({ works, btnClick }: Props) => {
     return (
-        <div>
+        <div id="portfolio">
             {works.map(item => (
                 <div>
                     <div className="flex flex-col items-center bg-gray-950 py-10 "> {/* início portfólio */}
                         <div className="px-10 sm:px-0">
-                            <h2 className="text-6xl px-10 md:px-0">{item.meuProtfolio[0]}<span className="text-[#410085]">{item.meuProtfolio[1]}</span></h2>
-                            <p className="text-gray-600 mt-4 px-10 md:px-0">
+                            <h2 className="text-6xl px-10 lg:px-0">{item.meuProtfolio[0]} <span className="text-[#410085]">{item.meuProtfolio[1]}</span></h2>
+                            <p className="text-gray-600 mt-4 px-10 lg:px-0">
                                 {item.description}
                             </p>
                         </div>

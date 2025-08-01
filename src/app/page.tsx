@@ -1,15 +1,15 @@
 "use client"
 
-import { AboutMe } from "@/components/AboutMe";
-import { ContactMe } from "@/components/ContactMe";
-import { Foot } from "@/components/Foot";
-import { Heade } from "@/components/Heade";
-import { InfoTech } from "@/components/InfoTech";
-import { MenuMobile } from "@/components/MenuMobile";
-import { MyPortfolio } from "@/components/MyPortfolio";
-import { Nav } from "@/components/Nav";
-import { RedesAndLogo } from "@/components/Redes&Logo";
-import { Skill } from "@/components/Skill";
+import { AboutMe } from "@/components/about/AboutMe";
+import { ContactMe } from "@/components/contact/ContactMe";
+import { Foot } from "@/components/foot/Foot";
+import { Heade } from "@/components/header/Heade";
+import { InfoTech } from "@/components/info/InfoTech";
+import { MenuMobile } from "@/components/menuMobile/MenuMobile";
+import { MyPortfolio } from "@/components/portfolio/MyPortfolio";
+import { Nav } from "@/components/nav/Nav";
+import { RedesAndLogo } from "@/components/redesLogo/Redes&Logo";
+import { Skill } from "@/components/skill/Skill";
 import { listAbout } from "@/data/listAbout";
 import { listContact } from "@/data/listContact";
 import { listFooter } from "@/data/listFooter";
@@ -61,6 +61,7 @@ const Page = () => {
 
         <section>
           <AboutMe aboutMe={listAbout} />
+          
         </section>
 
         <section>

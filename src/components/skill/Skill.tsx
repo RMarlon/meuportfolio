@@ -6,7 +6,7 @@ type Props = {
 
 export const Skill = ({ abilite }: Props) => {
     return (
-        <div>
+        <div id="skill">
             {abilite.map(item => (
                 <div>
                     <div className="py-20 flex flex-col items-center px-10"> {/* início habilidades */}

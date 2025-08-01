@@ -4,4 +4,5 @@ export type NavMenu = {
     btnLink2: string;
     btnLink3: string;
     btnLink4: string;
+    btnLink5: string;
 }

@@ -5,7 +5,7 @@ type Props = {
 }
 export const AboutMe = ({ aboutMe }: Props) => {
     return (
-        <div>
+        <div id="about">
             {aboutMe.map(item => (
                 <div>
                     <div className="flex flex-col-reverse items-center md:flex-row md:justify-around bg-gray-950 py-10">

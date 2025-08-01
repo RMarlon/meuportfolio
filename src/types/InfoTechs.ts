@@ -11,4 +11,5 @@ export type InfoTechs = {
     urlInstagram: string;
     urlGithub: string;
 
+    contact:string;
 }

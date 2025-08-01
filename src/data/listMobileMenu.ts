@@ -10,10 +10,12 @@ export const listMobileMenu:MobileMenu[] = [
         btnAbout:'Sobre mim',
         btnSkills:'Habilidades',
         btnPortfolio:'Portfólio',
+        btnContact: 'Contato',
 
         linkStart:'#',
-        linkAbout:'#',
-        linkSkills:'#',
-        linkPortfolio:'#'
+        linkAbout:'#about',
+        linkSkills:'#skill',
+        linkPortfolio:'#portfolio',
+        linkContact:'#contact',
     }
 ];

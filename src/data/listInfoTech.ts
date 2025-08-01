@@ -15,5 +15,6 @@ export const listInfoTech:InfoTechs[] = [
         urlInstagram: 'https://www.instagram.com/marlonsantosdev/',
         urlGithub: 'https://github.com/RMarlon',
 
+        contact: 'https://mail.google.com/mail/u/0/#inbox'
     }
 ];
