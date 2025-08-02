@@ -8,6 +8,6 @@ export const listSkills: Abilites[] = [
         js:['assets/javascript.svg', 'JavaScript', 'JavaScript® (às vezes abreviado para JS) é uma linguagem leve, interpretada e baseada em objetos com funções de primeira classe, mais conhecida como a linguagem de script para páginas Web...', 'Doc...', 'https://developer.mozilla.org/pt-BR/docs/Web/JavaScript'],
         ts:['assets/typescript.svg', 'TypeScripte', 'O TypeScript é uma linguagem de programação fortemente tipada que se baseia no JavaScript, dando-lhe melhores ferramentas em qualquer escala....', 'Doc...', 'https://www.typescriptlang.org/'],
         tailwindcss:['assets/tailwindcss.svg', 'Tailwind Css', 'O Tailwind CSS é um framework CSS que oferece um conjunto de classes utilitárias para estilizar elementos diretamente no HTML...', 'Doc...', 'https://tailwindcss.com/'],
-        react:['assets/react.svg', 'React JSX', ' React é uma biblioteca. Ele permite que você coloque componentes juntos, mas não prescreve como fazer roteamento e busca de dados....', 'Doc...', 'https://tailwindcss.com/'],
+        react:['assets/react.svg', 'React TSX', ' React é uma biblioteca. Ele permite que você coloque componentes juntos, mas não prescreve como fazer roteamento e busca de dados....', 'Doc...', 'https://tailwindcss.com/'],
     }
 ];

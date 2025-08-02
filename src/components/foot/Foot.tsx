@@ -12,11 +12,13 @@ export const Foot = ({ foot }: Props) => {
                     <div className="flex items-center justify-between px-3 py-10 bg-gray-950">
                         <small className="flex items-center gap-2 text-gray-600">
                             <img src={item.copy[0]} alt="" className="w-7" />
-                            {item.copy[1]}
+                            <p className="hidden md:block">
+                                {item.copy[1]}
+                            </p>
                         </small>
 
                         <div className="">
-                            <img src={item.logo} alt="" className="w-[17rem] " />
+                            <img src={item.logo} alt="" className="w-[10rem] " />
                         </div>
 
                         <div className="flex gap-2">

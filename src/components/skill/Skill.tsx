@@ -12,13 +12,13 @@ export const Skill = ({ abilite }: Props) => {
                     <div className="py-20 flex flex-col items-center px-10"> {/* início habilidades */}
 
                         <div>
-                            <h2 className="text-6xl">{item.skills[0]} <span className="text-[#410085]">{item.skills[1]}</span></h2>
+                            <h2 className="text-4xl text-center md:text-justify md:text-6xl">{item.skills[0]} <span className="text-[#410085]">{item.skills[1]}</span></h2>
                         </div>
 
                         <div className="py-10 grid grid-cols-1  lg:grid-cols-3 gap-5">
 
-                            <div className="w-full bg-gray-950 flex justify-center items-center p-10 rounded-md shadow shadow-[#410085]">
-                                <img src={item.html[0]} alt="icon html" className="pr-10" />
+                            <div className="w-full bg-gray-950 flex flex-col justify-center items-center p-7 md:flex-row rounded-md shadow shadow-[#410085]">
+                                <img src={item.html[0]} alt="icon html" className="" />
 
                                 <div className="flex flex-col">
 
@@ -34,8 +34,8 @@ export const Skill = ({ abilite }: Props) => {
 
                             </div>
 
-                            <div className="w-full bg-gray-950 flex justify-center items-center p-10 rounded-md shadow shadow-[#410085]">
-                                <img src={item.css[0]} alt="icon css" className="pr-10" />
+                            <div className="w-full bg-gray-950 flex flex-col justify-center items-center p-7 md:flex-row rounded-md shadow shadow-[#410085]">
+                                <img src={item.css[0]} alt="icon css" className="" />
 
                                 <div className="flex flex-col">
 
@@ -51,8 +51,8 @@ export const Skill = ({ abilite }: Props) => {
 
                             </div>
 
-                            <div className="w-full bg-gray-950 flex justify-center items-center p-10 rounded-md shadow shadow-[#410085]">
-                                <img src={item.js[0]} alt="icon javascript" className="pr-10" />
+                            <div className="w-full bg-gray-950 flex flex-col justify-center items-center p-7 md:flex-row rounded-md shadow shadow-[#410085]">
+                                <img src={item.js[0]} alt="icon javascript" className="" />
 
                                 <div className="flex flex-col">
 
@@ -70,8 +70,8 @@ export const Skill = ({ abilite }: Props) => {
 
                             </div>
 
-                            <div className="w-full bg-gray-950 flex justify-center items-center p-10 rounded-md shadow shadow-[#410085]">
-                                <img src={item.ts[0]} alt="icon typescript" className="pr-10" />
+                            <div className="w-full bg-gray-950 flex flex-col justify-center items-center p-7 md:flex-row rounded-md shadow shadow-[#410085]">
+                                <img src={item.ts[0]} alt="icon typescript" className="" />
 
                                 <div className="flex flex-col">
 
@@ -88,8 +88,8 @@ export const Skill = ({ abilite }: Props) => {
                                 </div>
                             </div>
 
-                            <div className="w-full bg-gray-950 flex justify-center items-center p-10 rounded-md shadow shadow-[#410085]">
-                                <img src={item.tailwindcss[0]} alt="icon talwindcss" className="pr-10" />
+                            <div className="w-full bg-gray-950 flex flex-col justify-center items-center p-7 md:flex-row rounded-md shadow shadow-[#410085]">
+                                <img src={item.tailwindcss[0]} alt="icon talwindcss" className="" />
 
                                 <div className="flex flex-col">
 
@@ -107,8 +107,8 @@ export const Skill = ({ abilite }: Props) => {
 
                             </div>
 
-                            <div className="w-full bg-gray-950 flex justify-center items-center p-10 rounded-md shadow shadow-[#410085]">
-                                <img src={item.react[0]} alt="icon react" className="pr-10" />
+                            <div className="w-full bg-gray-950 flex flex-col justify-center items-center p-7 md:flex-row rounded-md shadow shadow-[#410085]">
+                                <img src={item.react[0]} alt="icon react" className="" />
 
                                 <div className="flex flex-col">
 

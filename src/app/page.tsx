@@ -48,7 +48,7 @@ const Page = () => {
       </div>
 
 
-      <div className="bg-black container mx-auto shadow shadow-[#410085]"> {/* início container */}
+      <div className="bg-black container mx-auto lg:shadow lg:shadow-[#410085]"> {/* início container */}
         <Heade head={listHead} />
 
         <section className="px-2 flex justify-center items-center py-30">

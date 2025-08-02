@@ -10,16 +10,16 @@ export const ContactMe = ({ contact }: Props) => {
                 <div>
                     <div className="flex flex-col items-center lg:flex-row lg:justify-around py-20">
                         <div className="">
-                            <h2 className="text-6xl">{item.contactMe[0]} <span className="text-[#410085]">{item.contactMe[1]}</span></h2>
-                            <a href={item.email[0]} target="_blank" className="w-[325px] mt-4 text-2xl text-gray-600 flex gap-2 hover:text-white duration-300 ease-in-out">
+                            <h2 className="text-4xl text-center md:text-6xl md:text-right">{item.contactMe[0]} <span className="text-[#410085]">{item.contactMe[1]}</span></h2>
+                            <a href={item.email[0]} target="_blank" className="w-[325px] mt-4 ml-4  md:text-2xl text-gray-600 flex gap-2 hover:text-white duration-300 ease-in-out">
                                 <img src={item.email[1]} alt="" className="w-7" />
                                 <p>{item.email[2]}</p>
                             </a>
-                            <a href={item.instagram[0]} target="_blank" className="w-[325px] mt-4 text-2xl text-gray-600 flex gap-2 hover:text-white duration-300 ease-in-out">
+                            <a href={item.instagram[0]} target="_blank" className="w-[325px] mt-4 ml-4 md:text-2xl text-gray-600 flex gap-2 hover:text-white duration-300 ease-in-out">
                                 <img src={item.instagram[1]} alt="" className="w-7" />
                                 <p>{item.instagram[2]}</p>
                             </a>
-                            <a href={item.linkedin[0]} target="_blank" className="w-[125px] mt-4 text-2xl text-gray-600 flex gap-2 hover:text-white duration-300 ease-in-out">
+                            <a href={item.linkedin[0]} target="_blank" className="w-[125px] mt-4 ml-4 md:text-2xl text-gray-600 flex gap-2 hover:text-white duration-300 ease-in-out">
                                 <img src={item.linkedin[1]} alt="" className="w-7" />
                                 <p>{item.linkedin[2]}</p>
                             </a>
