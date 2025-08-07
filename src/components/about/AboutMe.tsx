@@ -10,7 +10,7 @@ export const AboutMe = ({ aboutMe }: Props) => {
                 <div>
                     <div className="flex flex-col-reverse items-center md:flex-row md:justify-around bg-gray-950 py-10">
                         <div>
-                            <h2 className="text-4xl md:text-6xl">{item.about} <span className="text-[#410085]">{item.me}</span></h2>
+                            <h2 className="text-4xl md:text-6xl text-white">{item.about} <span className="text-[#410085]">{item.me}</span></h2>
                             <div className="w-[300px] md:w-[400px] ">
                                 <p className=" text-justify  text-[18px] text-gray-600 mt-4">
                                   {item.desc}

@@ -12,7 +12,7 @@ export const MyPortfolio = ({ works, btnClick }: Props) => {
                 <div>
                     <div className="flex flex-col items-center bg-gray-950 py-10 "> {/* início portfólio */}
                         <div className="">
-                            <h2 className="text-4xl text-center md:text-6xl md:text-left">{item.meuProtfolio[0]} <span className="text-[#410085]">{item.meuProtfolio[1]}</span></h2>
+                            <h2 className="text-white text-4xl text-center md:text-6xl md:text-left">{item.meuProtfolio[0]} <span className="text-[#410085]">{item.meuProtfolio[1]}</span></h2>
                             <p className="text-gray-600 mt-4 px-10 lg:px-0">
                                 {item.description}
                             </p>
