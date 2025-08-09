@@ -20,20 +20,24 @@ import { listNav } from "@/data/listNav";
 import { listProtfolio } from "@/data/listPortfolio";
 import { listRedesAndLogo } from "@/data/listRedes&Logo";
 import { listSkills } from "@/data/listSkills";
+import { useState } from "react";
+
 
 
 const Page = () => {
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = () => {
 
-    const mobileMenu = document.querySelector('#menu');
+    const mobileMenu = document.querySelector<HTMLElement>('#menu');
     mobileMenu?.classList.toggle('translate-x-full');
 
   }
 
   const showMore = () => {
-    const hiddenMenu = document.querySelector('#hidden');
+    const hiddenMenu = document.querySelector<HTMLElement>('#hidden');
     hiddenMenu?.classList.toggle('hidden');
+    setIsOpen(!isOpen);
   }
 
   return (
@@ -61,7 +65,7 @@ const Page = () => {
 
         <section>
           <AboutMe aboutMe={listAbout} />
-          
+
         </section>
 
         <section>
@@ -69,7 +73,7 @@ const Page = () => {
         </section>
 
         <section>
-          <MyPortfolio works={listProtfolio} btnClick={showMore} />
+          <MyPortfolio works={listProtfolio} btnClick={showMore} isOpen={isOpen}/>
         </section>
 
         <section>

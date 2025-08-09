@@ -22,7 +22,7 @@ export const Skill = ({ abilite }: Props) => {
 
                                 <div className="flex flex-col">
 
-                                    <h3 className="text-2xl pb-2">{item.html[1]}</h3>
+                                    <h3 className="text-white text-2xl pb-2">{item.html[1]}</h3>
                                     <p className="text-gray-600 text-justify text-[14px]">
                                         {item.html[2]}
                                     </p>
@@ -39,7 +39,7 @@ export const Skill = ({ abilite }: Props) => {
 
                                 <div className="flex flex-col">
 
-                                    <h3 className="text-2xl pb-2">{item.css[1]}</h3>
+                                    <h3 className="text-white text-2xl pb-2">{item.css[1]}</h3>
                                     <p className="text-gray-600 text-justify text-[14px]">
                                         {item.css[2]}
                                     </p>
@@ -54,7 +54,7 @@ export const Skill = ({ abilite }: Props) => {
                             <div className="w-full bg-gray-950 flex flex-col justify-center items-center p-7 md:flex-row rounded-md shadow shadow-[#410085]">
                                 <img src={item.js[0]} alt="icon javascript" className="" />
 
-                                <div className="flex flex-col">
+                                <div className="text-white flex flex-col">
 
                                     <h3 className="text-2xl pb-2">{item.js[1]}</h3>
                                     <div>
@@ -73,7 +73,7 @@ export const Skill = ({ abilite }: Props) => {
                             <div className="w-full bg-gray-950 flex flex-col justify-center items-center p-7 md:flex-row rounded-md shadow shadow-[#410085]">
                                 <img src={item.ts[0]} alt="icon typescript" className="" />
 
-                                <div className="flex flex-col">
+                                <div className="text-white flex flex-col">
 
                                     <h3 className="text-2xl pb-2">{item.ts[1]}</h3>
                                     <div>
@@ -93,7 +93,7 @@ export const Skill = ({ abilite }: Props) => {
 
                                 <div className="flex flex-col">
 
-                                    <h3 className="text-2xl pb-2">{item.tailwindcss[1]}</h3>
+                                    <h3 className="text-white text-2xl pb-2">{item.tailwindcss[1]}</h3>
                                     <div>
                                         <p className="text-gray-600 text-justify text-[14px]">
                                             {item.tailwindcss[2]}
@@ -112,7 +112,7 @@ export const Skill = ({ abilite }: Props) => {
 
                                 <div className="flex flex-col">
 
-                                    <h3 className="text-2xl pb-2">{item.react[1]}</h3>
+                                    <h3 className="text-white text-2xl pb-2">{item.react[1]}</h3>
                                     <div className="">
                                         <p className="text-gray-600 text-justify text-[14px] ">
                                             {item.react[2]}

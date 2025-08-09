@@ -11,6 +11,6 @@ export const listProtfolio: Portfolio[] = [
         linkUmaMercearia:'https://rmarlon.github.io/Uma-mercearia/src/index.html#slider',
         linkAwax: 'https://rmarlon.github.io/Awax/',
 
-        btnMostarMais:['Mostrar', 'mais'],
+        btnMostarMais:['Mostrar', 'mais', 'menos'],
     }
 ];

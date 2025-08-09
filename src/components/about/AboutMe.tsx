@@ -20,7 +20,7 @@ export const AboutMe = ({ aboutMe }: Props) => {
 
                         <div>
                             <img src={item.myImg} alt="minha foto" className="h-96 rounded-md shadow shadow-[#410085]" />
-                            <p className="text-center mt-4 text-2xl pb-10">{item.hello}</p>
+                            <p className="text-white text-center mt-4 text-2xl pb-10">{item.hello}</p>
                         </div>
                     </div>
                 </div>
