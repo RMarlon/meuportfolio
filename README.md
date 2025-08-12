@@ -44,7 +44,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 Este projeto tem um objetivo falar um pouco sobre mim e mostrar alguns dos projetos que já fiz e que continuo fazendo.
 
 # Ferramentas utilizadas 🛠️
-<div>
+<div style='display:flex;'>
 <h2 style='color:gray;'>Linguagens de programação</h2>
     <a style='text-align:center;' href='https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/'>
         <h2>JavaScript</h2>
