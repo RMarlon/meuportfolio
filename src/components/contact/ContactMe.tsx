@@ -24,7 +24,7 @@ export const ContactMe = ({ contact }: Props) => {
 
 
         if (name === '' || email === '' || phone === '' || infoSystem === '' || infoMensage === '') {
-            // alert('Os campos precisam ser preenchidos');
+            
             toast.error('Por favor, preencha todos os campos corretamente!', {
                 position: "bottom-center",
                 autoClose: 5000,
@@ -39,7 +39,7 @@ export const ContactMe = ({ contact }: Props) => {
 
             return;
         } else {
-            // alert('Seu e-mail foi enviado com sucesso!');
+            
             toast.success('Seu e-mail foi enviado com sucesso!', {
                 position: "bottom-center",
                 autoClose: 5000,

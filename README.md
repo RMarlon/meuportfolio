@@ -46,14 +46,14 @@ Este projeto tem um objetivo falar um pouco sobre mim e mostrar alguns dos proje
 # Ferramentas utilizadas 🛠️
 <div>
 <h2 style='color:gray;'>Linguagens de programação</h2>
-    <a style='text-align:center;' href='https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/'>
-        <h2>JavaScript</h2>
+    <h2 style='text-align:center; color:yellow;'>JavaScript</h2>
+    <a href='https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/'>
         <img src='./public/assets/javascript.svg'> </br>
         <small style='margin-left:1rem;'>Documentação</small>
     </a>
 
-<a style='text-align:center;' href='https://www.typescriptlang.org/'>
-    <h2>TypeScript</h2>
+   <h2 style='text-align:center; color:DeepSkyBlue;'>TypeScript</h2>
+<a href='https://www.typescriptlang.org/'>
     <img src='./public/assets/typescript.svg'> </br>
     <small style='margin-left:1rem;'>Documentação</small>
 </a>
@@ -61,14 +61,14 @@ Este projeto tem um objetivo falar um pouco sobre mim e mostrar alguns dos proje
 
 <div>
     <h2 style='color:gray;'>Bibliotecas</h2>
-    <a style='text-align:center;' href='https://www.typescriptlang.org/'>
-        <h2>React</h2>
+        <h2 style='text-align:center; color:skyblue;'>React</h2>
+    <a  href='https://www.typescriptlang.org/'>
         <img src='./public/assets/react.svg'> </br>
         <small style='margin-left:1rem;'>Documentação</small>
     </a>
 
-<a style='text-align:center;' href='https://www.npmjs.com/package/react-toastify?activeTab=readme'>
-    <h2>React-Toastify</h2>
+   <h2 style='text-align:center; color:red;'>React-Toastify</h2>
+<a href='https://www.npmjs.com/package/react-toastify?activeTab=readme'>
     <img src='./public/assets/reactToast.svg'> </br>
     <small style='margin-left:1rem;'>Documentação</small>
 </a>
@@ -77,8 +77,8 @@ Este projeto tem um objetivo falar um pouco sobre mim e mostrar alguns dos proje
 
 <div>
 <h2  style='color:gray;'>Framework</h2>
-<a style='text-align:center;' href='https://tailwindcss.com/'>
-    <h2>Tailwindcss</h2>
+    <h2 style='text-align:center; color:Turquoise;'>Tailwindcss</h2>
+<a href='https://tailwindcss.com/'>
     <img src='./public/assets/tailwindcss.svg'> </br>
     <small style='margin-left:1rem;'>Documentação</small>
 </a>
@@ -87,8 +87,8 @@ Este projeto tem um objetivo falar um pouco sobre mim e mostrar alguns dos proje
 <div>
 <h2  style='color:gray;'>Software Development Kit / SDK</h2>
 
-<a style='text-align:center;' href='https://www.emailjs.com/docs/tutorial/overview/'>
-    <h2>EmailJs</h2>
+   <h2 style='text-align:center; color:orange;'>EmailJs</h2>
+<a href='https://www.emailjs.com/docs/tutorial/overview/'>
     <img style='width:160px;' src='./public/assets/emailjs1.png'> </br>
     <small style='margin-left:1rem;'>Documentação</small>
 </a>
