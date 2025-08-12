@@ -62,7 +62,7 @@ Este projeto tem um objetivo falar um pouco sobre mim e mostrar alguns dos proje
 <div>
     <h2 style='color:gray;'>Bibliotecas</h2>
         <h2 style='text-align:center; color:skyblue;'>React</h2>
-    <a  href='https://www.typescriptlang.org/'>
+    <a  href='https://react.dev/learn'>
         <img src='./public/assets/react.svg'> </br>
         <small style='margin-left:1rem;'>Documentação</small>
     </a>
