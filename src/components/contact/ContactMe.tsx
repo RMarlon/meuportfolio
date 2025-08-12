@@ -100,6 +100,7 @@ export const ContactMe = ({ contact }: Props) => {
                         <form action="#" onSubmit={sendEmail}
                             className="bg-gray-950 p-10 mt-10 text-center lg:mt-0 lg:text-justify rounded-md shadow shadow-[#410085]">
                             <input
+                                name="name"
                                 type="text"
                                 placeholder="Digite seu nome"
                                 value={name}
@@ -108,6 +109,7 @@ export const ContactMe = ({ contact }: Props) => {
                             />
 
                             <input
+                                name="email"
                                 type="email"
                                 placeholder="Digite seu e-mail"
                                 value={email}
@@ -118,6 +120,7 @@ export const ContactMe = ({ contact }: Props) => {
                             <div className="">
 
                                 <input
+                                    name="phone"
                                     type="tel" placeholder="Informe seu whatsapp"
                                     value={phone}
                                     onChange={(e) => SetPhone(e.target.value)}
@@ -125,6 +128,7 @@ export const ContactMe = ({ contact }: Props) => {
                                 />
 
                                 <input
+                                    name="message"
                                     type="text"
                                     placeholder="Sistema que deseja criar ?"
                                     value={infoSystem}
@@ -134,7 +138,7 @@ export const ContactMe = ({ contact }: Props) => {
 
                             </div>
                             <textarea
-                                name="" id=""
+                                name="message" id=""
                                 placeholder="Fale mais sobre sua ideia"
                                 value={infoMensage}
                                 onChange={(e) => SetInfoMensage(e.target.value)}
